@@ -1,0 +1,92 @@
+/* src/components/MobileLayout.css */
+
+.mobile-layout {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fff;
+    height: 667px;
+    width: 330px; /* Width of iPhone 15 Pro Max */
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* Center the mobile layout */
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .status-bar {
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+   
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 2px;
+  
+    overflow: hidden;
+    margin-top: 6px;
+    margin-left: 5px;
+  }
+  
+  .time {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icons i {
+    font-size: 12px;
+  }
+  
+  .content {
+    flex: 1;
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+.logo{
+  margin-bottom: 0px;
+}
+.logoName {
+
+  
+  /* font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    margin-left: 7px;
+    margin-bottom: 0px; */
+    font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+
+  
+      
+}
+.StatusAvatars {
+  margin-top: 0px;
+}
+.home-indicator {
+  position: absolute;
+  bottom: 10px;  
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;  
+  height: 5px;   
+  background-color: rgba(0, 0, 0, 0.636);  
+  border-radius: 2.5px; 
+}
+

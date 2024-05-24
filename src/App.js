@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+
+import React from 'react';
+import IphoneLayout from './components/IphoneLayout';
+
 
 function App() {
   return (
     <div className="App">
-Instagram
+      <IphoneLayout />
+      
     </div>
   );
 }

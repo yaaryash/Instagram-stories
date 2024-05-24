@@ -1,0 +1,57 @@
+.avatar-box{
+    width: 70px;
+    height: 70px;
+    aspect-ratio: 1/1;
+    background-image: linear-gradient(190deg, rgb(240, 64, 93) 5%, #FFD372);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+      
+  }
+  .avatar-profile-image{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 3px;
+    border: 3px solid white;
+  }
+  .carousel-status{
+    /* padding: 16px 0px; */
+    width: 100%;
+  }
+  .carousel-body{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: none;
+    /* width: 100%; */
+    height: 119px;
+    /* border: 1px solid rgba(219,219,219); */
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    scroll-behavior: smooth;
+    margin-top: 0;
+  }
+  .carousel-body::-webkit-scrollbar {
+    display: none;
+  }
+  .avatar-detail{
+    margin-left: 20px;
+    text-align: center;
+  }
+  .avatar-name{
+    font-size: 12px;
+    font-weight:600;
+    color: #262626;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 60px;
+  }
+  .check {
+    width: 100%;
+  }
+ 
